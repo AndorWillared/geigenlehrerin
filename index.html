@@ -1,29 +1,140 @@
-<!DOCTYPE HTML>
-
-<html lang=”en”>
-
-  <head>
-
-    <meta charset=”UTF-8″>
-
-    <meta name=”viewport” content=”width=device-width, initial-scale=1.0″>
-
-    <meta http-equiv=”X-UA-Compatible” content=”ie=edge”>
-
-    <title>My Website [Name of the website]</title>
-
-  </head>
-
-  <body>
-
-    <main>
-
-        <h1>Welcome to My Website [Name of the website]</h1>  
-
-        <p>This is my new website hosted on GitHub Pages!</p>
-
-    </main>
-
-  </body>
-
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="Andor Willared" />
+        <title>Startseite</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/custom.css" rel="stylesheet" />
+    </head>
+    <body>
+        <!-- Responsive navbar-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container px-5">
+                <a class="navbar-brand" href="#!">Geigenuntericht Gießen</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#!">Startseite</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#!">Über mich</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#!">Kontakt</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Header-->
+        <header class="py-5">
+            <div class="container px-5">
+                <div class="row gx-5 justify-content-center">
+                    <div class="col-lg-6">
+                        <div class="text-center my-5">
+                            <img id="profileimage" class="rounded-circle mb-2" alt="test" src="imgs/profile.jpg"
+                                 data-holder-rendered="true">
+                            <h1 class="display-5 fw-bolder text-white mb-2">Eunike Willared</h1>
+                            <p class="lead text-opacity-75 text-white mb-0">Geigenunterricht für Anfänger und Fortgeschrittene, Kinder und Jugendliche, gerne auch Erwachsene</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Features section-->
+        <section class="py-5 border-bottom" id="features" style="margin-top: 100px">
+            <div class="container px-5">
+                <div class="row gx-5">
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <!--<img id="profileimage" class="rounded-circle" alt="test" src="imgs/profile.jpg"
+                             data-holder-rendered="true">-->
+                        <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-person"></i></div>
+                        <h2 class="h4 fw-bolder">Über mich</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+                            molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+                            numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+                            optio</p>
+                        <a class="text-decoration-none" href="#!">
+                            Mehr
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-people"></i></div>
+                        <h2 class="h4 fw-bolder">Für alle Schwierigkeits- und Altersstufen</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+                            molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+                            numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+                            optio</p>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-calendar-check"></i></div>
+                        <h2 class="h4 fw-bolder">Unterricht</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+                            molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+                            numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+                            optio</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Testimonials section-->
+        <section class="py-5 border-bottom">
+            <div class="container px-5 my-5 px-5">
+                <div class="text-center mb-5">
+                    <h2 class="fw-bolder">Eindrücke</h2>
+                    <p class="lead mb-0">Ein paar Berichte von Schüler:innen</p>
+                </div>
+                <div class="row gx-5 justify-content-center">
+                    <div class="col-lg-6">
+                        <!-- Testimonial 1-->
+                        <div class="card mb-4">
+                            <div class="card-body p-4">
+                                <div class="d-flex">
+                                    <div class="flex-shrink-0"><i class="bi bi-chat-right-quote-fill text-primary fs-1"></i></div>
+                                    <div class="ms-4">
+                                        <p class="mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+                                            molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+                                            numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+                                            optio, eaque rerum!</p>
+                                        <div class="small text-muted">- Lisa, 12</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Testimonial 2-->
+                        <div class="card">
+                            <div class="card-body p-4">
+                                <div class="d-flex">
+                                    <div class="flex-shrink-0"><i class="bi bi-chat-right-quote-fill text-primary fs-1"></i></div>
+                                    <div class="ms-4">
+                                        <p class="mb-1">Quo neque error repudiandae fuga? Ipsa laudantium molestias eos
+                                            sapiente officiis modi at sunt excepturi expedita sint? Sed quibusdam
+                                            recusandae alias error harum maxime adipisci amet laborum!</p>
+                                        <div class="small text-muted">- Jan, 34</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="py-5 bg-dark">
+            <div class="container px-5"><p class="m-0 text-center text-white">Copyright &copy; Eunike Willared 2021</p></div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <!-- * *                               SB Forms JS                               * *-->
+        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    </body>
 </html>
